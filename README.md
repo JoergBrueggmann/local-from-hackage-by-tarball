@@ -1,4 +1,4 @@
-# Test6
+# local-from-hackage-by-tarball
 
 Shows how source files of a package that has been obtained from Stackage/Hackage (by stach unpack, as a local copy), and is embedded in an existing project - with using tarball files.
 
@@ -23,7 +23,7 @@ See also https://github.com/JoergBrueggmann/Test7
 
         output:
 
-        Unpacked random (from Hackage) to C:\Qsync\SwEng\GitHub\JB\SandBox\Test6\random-1.2.1\
+        Unpacked random (from Hackage) to C:\...\local-from-hackage-by-tarball\random-1.2.1\
 
     change the current directory
         command:
@@ -58,11 +58,11 @@ See also https://github.com/JoergBrueggmann/Test7
 
         output:
 
-        Getting file list for C:\Qsync\SwEng\GitHub\JB\SandBox\Test6\random-1.2.1\
+        Getting file list for C:\...\local-from-hackage-by-tarball\random-1.2.1\
         random> List of package sources written to file
         random> 'C:\Users\Joerg\AppData\Local\Temp\stack-sdist-fede07f57c5e6536\source-files-list'
-        Building sdist tarball for C:\Qsync\SwEng\GitHub\JB\SandBox\Test6\random-1.2.1\
-        Wrote sdist tarball to C:\Qsync\SwEng\GitHub\JB\SandBox\Test6\random-1.2.1\.stack-work\dist\274b403a\random-1.2.1.tar.gz
+        Building sdist tarball for ...\local-from-hackage-by-tarball\random-1.2.1\
+        Wrote sdist tarball to ...\local-from-hackage-by-tarball\random-1.2.1\.stack-work\dist\274b403a\random-1.2.1.tar.gz
         Checking package 'random' for common mistakes
         Package check reported the following warnings:
         'ghc-options: -O2' is rarely needed. Check that it is giving a real benefit and not just imposing longer compile times on your users.
@@ -100,7 +100,7 @@ See also https://github.com/JoergBrueggmann/Test7
         .
         .
         # common to point users to the README.md file.
-        description:         Please see the README on GitHub at <https://github.com/githubuser/Test6#readme>
+        description:         Please see the README on GitHub at <https://github.com/JoergBrueggmann/local-from-hackage-by-tarball#README.md>
 
         dependencies:
         - base >= 4.7 && < 5
@@ -112,7 +112,7 @@ See also https://github.com/JoergBrueggmann/Test7
         .
         .
 
-    delete cabal-file (here `Test6.cabal`), if any
+    delete cabal-file (here `local-from-hackage-by-tarball.cabal`), if any
 
     build the main project
         command:
@@ -131,28 +131,26 @@ See also https://github.com/JoergBrueggmann/Test7
         random> [3 of 4] Compiling System.Random
         random> [4 of 4] Compiling System.Random.Stateful
         random> copy/register
-        random> Installing library in C:\Qsync\SwEng\GitHub\JB\SandBox\Test6\.stack-work\install\f1fb6c00\lib\x86_64-windows-ghc-8.10.7\random-1.2.1-HT6KBuAXK636deJWA2IfmN
+        random> Installing library in ...\local-from-hackage-by-tarball\.stack-work\install\f1fb6c00\lib\x86_64-windows-ghc-8.10.7\random-1.2.1-HT6KBuAXK636deJWA2IfmN
         random> Registering library for random-1.2.1..
-        Building all executables for `Test6' once. After a successful build of all of them, only specified executables will be rebuilt.
-        Test6 > configure (lib + exe)
-        Configuring Test6-0.1.0.0...
-        Test6 > build (lib + exe)
-        Preprocessing library for Test6-0.1.0.0..
-        Building library for Test6-0.1.0.0..
+        Building all executables for `local-from-hackage-by-tarball' once. After a successful build of all of them, only specified executables will be rebuilt.
+        local-from-hackage-by-tarball > configure (lib + exe)
+        Configuring local-from-hackage-by-tarball-0.1.0.0...
+        local-from-hackage-by-tarball > build (lib + exe)
+        Preprocessing library for local-from-hackage-by-tarball-0.1.0.0..
+        Building library for local-from-hackage-by-tarball-0.1.0.0..
         [1 of 2] Compiling Lib
-        [2 of 2] Compiling Paths_Test6
-        Preprocessing executable 'Test6-exe' for Test6-0.1.0.0..
-        Building executable 'Test6-exe' for Test6-0.1.0.0..
+        [2 of 2] Compiling Paths_local-from-hackage-by-tarball
+        Preprocessing executable 'local-from-hackage-by-tarball' forlocal-from-hackage-by-tarball-0.1.0.0..
+        Building executable 'local-from-hackage-by-tarball' for local-from-hackage-by-tarball-0.1.0.0..
         [1 of 2] Compiling Main
-        [2 of 2] Compiling Paths_Test6
-        Linking .stack-work\dist\274b403a\build\Test6-exe\Test6-exe.exe ...
-        Test6 > copy/register
-        Installing library in C:\Qsync\SwEng\GitHub\JB\SandBox\Test6\.stack-work\install\f1fb6c00\lib\x86_64-windows-ghc-8.10.7\Test6-0.1.0.0-37H5nARYQZNVVlIIsBxXW
-        Installing executable Test6-exe in C:\Qsync\SwEng\GitHub\JB\SandBox\Test6\.stack-work\install\f1fb6c00\bin
-        Registering library for Test6-0.1.0.0..
+        [2 of 2] Compiling Paths_local-from-hackage-by-tarball
+        Linking .stack-work\dist\274b403a\build\local-from-hackage-by-tarball\local-from-hackage-by-tarball.exe ...
+        local-from-hackage-by-tarball > copy/register
+        Installing library in ...\local-from-hackage-by-tarball\.stack-work\install\f1fb6c00\lib\x86_64-windows-ghc-8.10.7\local-from-hackage-by-tarball-0.1.0.0-37H5nARYQZNVVlIIsBxXW
+        Installing executable local-from-hackage-by-tarball in ...\local-from-hackage-by-tarball\.stack-work\install\f1fb6c00\bin
+        Registering library for local-from-hackage-by-tarball-0.1.0.0..
         Completed 2 action(s).
-
-
 
 ## Source
 https://www.sw4sd.com/hasksheet/doku.php?id=toolsetup:buildingapackagelocally

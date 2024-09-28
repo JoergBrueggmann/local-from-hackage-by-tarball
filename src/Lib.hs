@@ -1,8 +1,9 @@
 module Lib
-    ( someFunc
+    (
+        main
     ) where
 
 import qualified System.Random as Rnd
 
-someFunc :: IO ()
-someFunc = putStrLn Rnd.sTest -- "dfgh"--
+main :: IO ()
+main = putStrLn Rnd.sTest

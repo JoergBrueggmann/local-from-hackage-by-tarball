@@ -15,7 +15,7 @@ rm -v "./"$name".cabal"
 stack build
 
 if [ $os == "win" ]; then
-    stack exec $name"-exe.exe"
+    stack exec $name".exe"
 else
-    stack exec $name"-exe"
+    stack exec $name
 fi

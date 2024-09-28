@@ -1,3 +1,3 @@
-# Changelog for Test6
+# Changelog for local-from-hackage-by-tarball
 
 ## Unreleased changes
