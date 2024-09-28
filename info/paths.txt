@@ -1,0 +1,24 @@
+snapshot-doc-root: /home/joerg/.stack/snapshots/x86_64-linux/a69257510d9609ff095f514dd25e1d5638bc6f636b5c2edf5402f71b55390e38/8.10.7/doc
+local-doc-root: /home/joerg/Qsync/SwEng/GitHub/JB/SandBox/Test6/.stack-work/install/x86_64-linux/a69257510d9609ff095f514dd25e1d5638bc6f636b5c2edf5402f71b55390e38/8.10.7/doc
+local-hoogle-root: /home/joerg/Qsync/SwEng/GitHub/JB/SandBox/Test6/.stack-work/hoogle/x86_64-linux/a69257510d9609ff095f514dd25e1d5638bc6f636b5c2edf5402f71b55390e38/8.10.7
+stack-root: /home/joerg/.stack
+project-root: /home/joerg/Qsync/SwEng/GitHub/JB/SandBox/Test6
+config-location: /home/joerg/Qsync/SwEng/GitHub/JB/SandBox/Test6/stack.yaml
+bin-path: /home/joerg/.stack/snapshots/x86_64-linux/45b57a058e2d830cacca87575f070c3fa461c5b34c4d1e7d44b918206658039a/8.10.7/bin:/home/joerg/.stack/compiler-tools/x86_64-linux/ghc-8.10.7/bin:/home/joerg/.stack/programs/x86_64-linux/ghc-8.10.7/bin:/home/joerg/.cabal/bin:/home/joerg/.ghcup/bin:/home/joerg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+programs: /home/joerg/.stack/programs/x86_64-linux
+compiler-exe: /home/joerg/.stack/programs/x86_64-linux/ghc-8.10.7/bin/ghc-8.10.7
+compiler-bin: /home/joerg/.stack/programs/x86_64-linux/ghc-8.10.7/bin
+compiler-tools-bin: /home/joerg/.stack/compiler-tools/x86_64-linux/ghc-8.10.7/bin
+local-bin: /home/joerg/.local/bin
+extra-include-dirs: 
+extra-library-dirs: 
+snapshot-pkg-db: /home/joerg/.stack/snapshots/x86_64-linux/45b57a058e2d830cacca87575f070c3fa461c5b34c4d1e7d44b918206658039a/8.10.7/pkgdb
+local-pkg-db: /home/joerg/Qsync/SwEng/GitHub/JB/SandBox/Test6/.stack-work/install/x86_64-linux/45b57a058e2d830cacca87575f070c3fa461c5b34c4d1e7d44b918206658039a/8.10.7/pkgdb
+global-pkg-db: /home/joerg/.stack/programs/x86_64-linux/ghc-8.10.7/lib/ghc-8.10.7/package.conf.d
+ghc-package-path: /home/joerg/Qsync/SwEng/GitHub/JB/SandBox/Test6/.stack-work/install/x86_64-linux/45b57a058e2d830cacca87575f070c3fa461c5b34c4d1e7d44b918206658039a/8.10.7/pkgdb:/home/joerg/.stack/snapshots/x86_64-linux/45b57a058e2d830cacca87575f070c3fa461c5b34c4d1e7d44b918206658039a/8.10.7/pkgdb:/home/joerg/.stack/programs/x86_64-linux/ghc-8.10.7/lib/ghc-8.10.7/package.conf.d
+snapshot-install-root: /home/joerg/.stack/snapshots/x86_64-linux/45b57a058e2d830cacca87575f070c3fa461c5b34c4d1e7d44b918206658039a/8.10.7
+local-install-root: /home/joerg/Qsync/SwEng/GitHub/JB/SandBox/Test6/.stack-work/install/x86_64-linux/45b57a058e2d830cacca87575f070c3fa461c5b34c4d1e7d44b918206658039a/8.10.7
+dist-dir: .stack-work/dist/x86_64-linux/Cabal-3.2.1.0
+local-hpc-root: /home/joerg/Qsync/SwEng/GitHub/JB/SandBox/Test6/.stack-work/install/x86_64-linux/45b57a058e2d830cacca87575f070c3fa461c5b34c4d1e7d44b918206658039a/8.10.7/hpc
+local-bin-path: /home/joerg/.local/bin
+ghc-paths: /home/joerg/.stack/programs/x86_64-linux
